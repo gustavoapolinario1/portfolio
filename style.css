@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #837e9f;
+}
+body {
+  font-family: 'Merriweather Sans', sans-serif;
+  margin: 40px 40px 52px;
+}
+
+div {
+  background: #302f3d;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  margin-bottom: 16px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.perfil {
+  border: solid 1px black;
+  width: 348px;
+  height: 292px;
+  padding: 10px 72px;
+}
+
+.perfil img {
+  display: flex;
+  width: 128px;
+  height: 128px;
+  margin: 10px auto 31px;
+  border-radius: 50%;
+  border: solid 2px #00ff00;
+}
+
+.perfil h3 {
+  font-size: 23px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.perfil p {
+  font-size: 13px;
+  font-weight: 300;
+  text-align: center;
+}
+
+/* Análisado somente o perfil */
+
+.rede {
+  width: 348px;
+  height: 348px;
+}
+
+#social {
+  list-style: none;
+  padding: 30px 40px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#social li {
+  height: 16px;
+  margin-top: 20px;
+}
+
+#social img {
+  padding: 0px 20px;
+}
+
+#social a:link {
+  text-decoration: none;
+}
+
+#social a:hover {
+  text-decoration: underline;
+}
+
+#social a:active {
+  color: burlywood;
+}
+
+/* analise da rede social */
